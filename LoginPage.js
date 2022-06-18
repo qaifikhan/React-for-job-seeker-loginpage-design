@@ -24,7 +24,7 @@ const LoginPage = (props) => {
                 <input className={classes.InputBox} type="text" />
                 <label className={classes.InputLabel}>Password</label>
                 <input className={classes.InputBox} type="password" />
-                <button className={classes.LoginButton} onClick={onLoginClick}>Login</button>
+                <input type="submit" className={classes.LoginButton} value="Login" />
             </form>
         </div>
     );
